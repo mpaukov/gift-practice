@@ -1,0 +1,15 @@
+.navigation {
+  display: flex;
+}
+
+.navigation__items {
+  display: flex;
+  align-items: center;
+}
+
+.navigation__item {
+  font-size: 18px;
+  line-height: 1.22;
+
+  color: $main-text-color;
+}

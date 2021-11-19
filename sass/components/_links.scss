@@ -1,0 +1,14 @@
+.link__navigation {
+  display: block;
+  padding: 47px 15px;
+}
+
+.link__header {
+  padding: 13px 24px;
+  color: $accent-color;
+  border: 1px solid $accent-color;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+  text-transform: uppercase;
+}
