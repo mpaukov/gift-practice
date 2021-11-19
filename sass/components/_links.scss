@@ -12,3 +12,17 @@
 
   text-transform: uppercase;
 }
+
+.link__hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 60px;
+
+  text-transform: uppercase;
+
+  color: $main-light-color;
+  background: $accent-color;
+  border-radius: 5px;
+}

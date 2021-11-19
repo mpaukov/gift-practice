@@ -47,6 +47,24 @@
   text-transform: uppercase;
 }
 
+.link__hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 200px;
+  height: 60px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #f7941e;
+  border-radius: 5px;
+}
+
 .navigation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -66,6 +84,21 @@
   font-size: 18px;
   line-height: 1.22;
   color: #000000;
+}
+
+.title__hero {
+  margin-top: 0;
+  margin-bottom: 36px;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 1.5;
+}
+
+.text__hero {
+  margin-top: 0;
+  margin-bottom: 52px;
+  font-size: 20px;
+  line-height: 1.4;
 }
 
 body {
