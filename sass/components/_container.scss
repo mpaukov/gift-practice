@@ -4,4 +4,10 @@
   margin-left: auto;
   padding-right: 15px;
   padding-left: 15px;
+
+  .hero & {
+    display: flex;
+    align-items: center;
+    width: 1470px;
+  }
 }

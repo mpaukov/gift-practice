@@ -17,7 +17,7 @@
 
 .logo {
   display: block;
-  padding: 39px 65px;
+  padding: 39px 0;
   font-family: "Homemade Apple", sans-serif;
   font-size: 18px;
   line-height: 2.17;
@@ -30,6 +30,16 @@
   margin-left: auto;
   padding-right: 15px;
   padding-left: 15px;
+}
+
+.hero .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1470px;
 }
 
 .link__navigation {
@@ -94,7 +104,14 @@
   line-height: 1.5;
 }
 
-.text__hero {
+.title__section {
+  margin-top: 0;
+  margin-bottom: 23px;
+  font-size: 32px;
+  line-height: 1.4;
+}
+
+.text__main {
   margin-top: 0;
   margin-bottom: 52px;
   font-size: 20px;
@@ -117,5 +134,29 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.hero {
+  background-color: #f1f1f2;
+}
+
+.hero__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 433px;
+  height: 442px;
+  margin-right: auto;
+  margin-left: auto;
 }
 /*# sourceMappingURL=main.css.map */

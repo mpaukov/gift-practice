@@ -48,37 +48,42 @@
     <main>
       <section class="hero">
         <div class="container">
-          <div>
+          <div class="hero__wrapper">
             <h1 class="title__hero">Find a gift for your wife or girlfriend</h1>
-            <p class="text__hero">
+            <p class="text__main">
               Struggling to find a gift for your wife or girlfriend? No problem!
             </p>
             <a class="link link__hero" href="">Find gift now</a>
           </div>
+
           <img
-            src="./images/sec1-img1-sq.jpg"
+            class="images"
+            srcset="./images/background.jpg 1x, ./images/background@2x.jpg 2x"
+            src="./images/background.jpg"
             alt="Девушка с парнем"
             width="719"
-            height="700"
           />
         </div>
       </section>
-      <section>
-        <img
-          src="./images/sec2-img1-sq.jpg"
-          alt="Конверт с благодарностью"
-          width="733"
-          height="618"
-        />
-        <div>
-          <h2>How we work</h2>
-          <p>
-            We’ve actually already asked hundreds of women what they want, and
-            made a database with the results. All you have to do is take our
-            short survey that only takes seconds, and our proprietary algorithm
-            will match you with a few perfect gift options.
-          </p>
-          <a href="">Learn More</a>
+      <section class="hero">
+        <div class="container">
+          <img
+            class="images"
+            srcset="./images/media.jpg 1x, ./images/media@2x.jpg 2x"
+            src="./images/media.jpg"
+            alt="Конверт с благодарностью"
+            width="721"
+          />
+          <div class="hero__wrapper">
+            <h2>How we work</h2>
+            <p class="text__main">
+              We’ve actually already asked hundreds of women what they want, and
+              made a database with the results. All you have to do is take our
+              short survey that only takes seconds, and our proprietary
+              algorithm will match you with a few perfect gift options.
+            </p>
+            <a href="">Learn More</a>
+          </div>
         </div>
       </section>
     </main>
