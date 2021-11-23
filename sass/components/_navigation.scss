@@ -12,4 +12,8 @@
   line-height: 1.22;
 
   color: $main-text-color;
+
+  &:not(:last-child) {
+    margin-right: 15px;
+  }
 }

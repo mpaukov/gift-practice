@@ -1,6 +1,6 @@
 .link__navigation {
   display: block;
-  padding: 47px 15px;
+  padding: 47px 0;
 }
 
 .link__header {
@@ -61,5 +61,40 @@
   &:focus {
     color: $main-light-color;
     background-color: $accent-color;
+  }
+}
+
+.link__call {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+
+  color: $main-text-color;
+  border: 1px solid $main-text-color;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+  text-transform: uppercase;
+
+  &:hover,
+  &:focus {
+    color: $main-light-color;
+    background-color: $main-text-color;
+    border: 1px solid $main-light-color;
+  }
+}
+
+.link__accent {
+  color: $main-light-color;
+  background-color: $main-text-color;
+  margin-right: 15px;
+
+  &:hover,
+  &:focus {
+    color: $main-text-color;
+    background-color: $main-light-color;
+    border: 1px solid $main-text-color;
   }
 }

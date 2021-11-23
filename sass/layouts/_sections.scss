@@ -26,6 +26,30 @@
 }
 
 .call {
-  padding: 81px;
+  padding-top: 81px;
+  padding-bottom: 81px;
+
   background-color: $accent-color;
+
+  & .call__thumb + .call__thumb {
+    display: flex;
+  }
+}
+
+.blogs {
+  padding-top: 88px;
+  padding-bottom: 80px;
+
+  background-color: $main-light-color;
+}
+
+.blog {
+  &__hero {
+    display: flex;
+    align-items: center;
+  }
+  &__thumb {
+    width: 500px;
+    text-align: left;
+  }
 }

@@ -17,3 +17,30 @@
   font-size: 14px;
   line-height: 1.35;
 }
+
+.text__call {
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.text__blogs {
+  font-size: 18px;
+  line-height: 1.35;
+  margin-top: 0;
+  margin-bottom: 71px;
+}
+
+.text__name {
+  margin-top: 0;
+  margin-bottom: 27px;
+  font-size: 14px;
+  line-height: 1.4;
+  color: $main-light-color;
+}
+
+.text__link {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.4;
+  color: $main-light-color;
+}
