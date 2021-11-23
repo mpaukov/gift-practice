@@ -4,13 +4,23 @@
 }
 
 .link__header {
-  padding: 13px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  height: 40px;
   color: $accent-color;
   border: 1px solid $accent-color;
   box-sizing: border-box;
   border-radius: 5px;
 
   text-transform: uppercase;
+
+  &:hover,
+  &:focus {
+    color: $main-light-color;
+    background-color: $accent-color;
+  }
 }
 
 .link__hero {
@@ -25,4 +35,31 @@
   color: $main-light-color;
   background: $accent-color;
   border-radius: 5px;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+    background-color: $main-light-color;
+  }
+}
+
+.link__section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 60px;
+
+  color: $accent-color;
+  border: 1px solid $accent-color;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+  text-transform: uppercase;
+
+  &:hover,
+  &:focus {
+    color: $main-light-color;
+    background-color: $accent-color;
+  }
 }
