@@ -11,7 +11,6 @@
   height: 40px;
   color: $accent-color;
   border: 1px solid $accent-color;
-  box-sizing: border-box;
   border-radius: 5px;
 
   text-transform: uppercase;
@@ -52,7 +51,7 @@
 
   color: $accent-color;
   border: 1px solid $accent-color;
-  box-sizing: border-box;
+
   border-radius: 5px;
 
   text-transform: uppercase;
@@ -97,4 +96,13 @@
     background-color: $main-light-color;
     border: 1px solid $main-text-color;
   }
+}
+
+.link__blog {
+  display: block;
+}
+
+.link__footer {
+  display: block;
+  padding: 53px 0;
 }

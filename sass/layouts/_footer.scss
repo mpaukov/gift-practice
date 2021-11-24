@@ -1,0 +1,37 @@
+.footer {
+  padding-top: 62px;
+  padding-bottom: 35px;
+  background-color: $card-background-color;
+}
+
+.footer__items {
+  display: flex;
+  align-items: center;
+}
+
+.footer__item {
+  font-size: 18px;
+  line-height: 1.22;
+
+  color: $main-text-color;
+
+  &:not(:last-child) {
+    margin-right: 81px;
+  }
+}
+
+.footer__thumb {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  border-bottom: 1px solid $main-text-color;
+}
+
+.footer__social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 56px;
+  margin-bottom: 73px;
+}

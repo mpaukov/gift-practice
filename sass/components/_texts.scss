@@ -30,6 +30,21 @@
   margin-bottom: 71px;
 }
 
+.text__blog {
+  font-size: 18px;
+  line-height: 1.4;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.text__blog-link {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: left;
+}
+
 .text__name {
   margin-top: 0;
   margin-bottom: 27px;
@@ -43,4 +58,11 @@
   font-size: 18px;
   line-height: 1.4;
   color: $main-light-color;
+}
+
+.text__footer {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.4;
+  text-align: center;
 }

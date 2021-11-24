@@ -8,4 +8,9 @@
   line-height: 2.17;
 
   color: $logo-color;
+
+  .footer & {
+    padding: 43px 0;
+    color: $accent-color;
+  }
 }

@@ -19,3 +19,20 @@
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
   }
 }
+
+.card__blog {
+  display: flex;
+}
+
+.card__blog-item {
+  padding: 48px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  &:hover,
+  &:focus-within {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+  }
+}
