@@ -35,3 +35,12 @@
   margin-top: 56px;
   margin-bottom: 73px;
 }
+
+.social__item {
+  display: block;
+  width: 38.5px;
+  height: 38.5px;
+  &:not(:last-child) {
+    margin-right: 24px;
+  }
+}

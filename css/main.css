@@ -361,6 +361,11 @@
           box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
 }
 
+.icon__social {
+  width: 38.5px;
+  height: 38.5px;
+}
+
 body {
   background-color: #ffffff;
   color: #000000;
@@ -494,4 +499,13 @@ body {
           justify-content: center;
   margin-top: 56px;
   margin-bottom: 73px;
+}
+
+.social__item {
+  display: block;
+  width: 38.5px;
+  height: 38.5px;
+}
+.social__item:not(:last-child) {
+  margin-right: 24px;
 }/*# sourceMappingURL=main.css.map */
